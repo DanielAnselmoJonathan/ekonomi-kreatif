@@ -338,7 +338,8 @@ footer .credit {
     font-size: 60%;
   }
 
-  .produk p {
-    font-size: 1.2rem;
+  .produk p,
+  .tentang-afc .row .content p {
+    font-size: 1.3rem;
   }
 }
