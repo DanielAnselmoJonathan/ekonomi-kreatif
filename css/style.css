@@ -234,7 +234,7 @@ body {
 }
 
 .kontak .content .foto {
-  width: 30%;
+  width: 20%;
   margin: 1rem;
   border-radius: 50%;
 }
@@ -371,6 +371,7 @@ footer .credit {
   .kontak .content .foto {
     object-fit: cover;
     object-position: center;
+    width: 30%;
   }
 
   .kontak .content {
@@ -388,5 +389,9 @@ footer .credit {
   .produk p,
   .tentang-afc .row .content p {
     font-size: 1.3rem;
+  }
+
+  .kontak .content .foto {
+    width: 30%;
   }
 }
