@@ -136,19 +136,22 @@ body {
 
 /* Tentang AFC Section */
 .tentang-afc,
-.produk {
+.produk,
+.kontak {
   padding: 6rem 7% 1.4rem;
 }
 
 .tentang-afc h2,
-.produk h2 {
+.produk h2,
+.kontak h2 {
   text-align: center;
   font-size: 2.6rem;
   margin-bottom: 3rem;
 }
 
 .tentang-afc h2 span,
-.produk h2 span {
+.produk h2 span,
+.kontak h2 span {
   color: var(--secondary);
 }
 
@@ -216,6 +219,37 @@ body {
 .produk .row .produk-card .produk-card-tittle {
   padding: 1rem;
   margin-top: 1rem auto 0.5rem;
+}
+
+/* Kontak Section */
+.kontak .content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.kontak .content p span {
+  color: var(--text);
+}
+
+.kontak .content .foto {
+  width: 30%;
+  margin: 1rem;
+  border-radius: 50%;
+}
+
+.kontak .content p {
+  margin: 1rem;
+  font-size: 1.7rem;
+}
+
+.kontak .content a {
+  color: #ffffff;
+}
+
+.kontak .content a:hover {
+  color: var(--secondary);
 }
 
 /* Footer */
@@ -328,6 +362,15 @@ footer .credit {
 
   .tentang-afc .row .content p {
     font-size: 0.93rem;
+  }
+
+  .kontak .content .foto {
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .kontak .content {
+    flex-wrap: wrap;
   }
 }
 
